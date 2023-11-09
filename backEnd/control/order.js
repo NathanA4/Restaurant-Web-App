@@ -24,5 +24,13 @@ exports.getOrder = async (req, res) => {
         res.status(500).json({Error: "Server Error"});
     }
 }
-
-// exports.deleteOrder
+exports.deleteOrder = async (req, res) =>{
+    const{id} = req.params;
+    OrderSchema.findByIdAndDelete(id)
+    .then((order) => {
+        res.status(200).json({message: 'Order has been Deleted'})
+    })
+    .catch((err) =>{
+        res.status(500).json({message: 'Server Error'})
+    })
+}
