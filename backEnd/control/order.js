@@ -9,10 +9,10 @@ exports.addOrder = async (req, res) => {
             return res.status(400).json({Error: "Must Enter all the fields!"});
         }
         await order.save();
-        res.status(200).json({Error: "Order has been Added!"});
+        res.status(200).json({message: "Order has been Added!"});
         
     } catch (error) {
-        res.status(500).json({Error: "Server Error"});
+        res.status(500).json({message: "Server Error"});
     }
 }
 
