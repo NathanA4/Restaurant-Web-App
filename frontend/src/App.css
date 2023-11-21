@@ -13,7 +13,7 @@
     margin-left: 2rem;
 }
 .sectionPadding{
-    padding: 5rem 5rem;
+    padding: 3rem 5rem;
 }
 .appWrapperImg{
     width: 100%;
@@ -24,4 +24,23 @@
 }
 .appWrapperImg img{
     width: 90%;
+
 }
+.lineImg{
+    width: 90px;
+    margin: 0px 50px;
+    padding: 250px 0px;
+
+}
+
+/*@media screen and (max-width: 1150px){
+    .appWrapper{
+        flex-direction: column;
+    }
+    .appWrapperImg{
+        margin: 5rem 0rem 0rem 0rem;
+    }
+    .appWrapperImg img{
+        width: 100px;
+    }
+}*/
