@@ -1,0 +1,27 @@
+.appWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 100vh;
+}
+.appWrapperInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.sectionPadding{
+    padding: 5rem 5rem;
+}
+.appWrapperImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.appWrapperImg img{
+    width: 90%;
+}
