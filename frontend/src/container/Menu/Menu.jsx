@@ -4,7 +4,7 @@ import './Menu.css';
 
 const Menu = () => (
     <div>
-        Apple
+        Products 
     </div>
 );
 
