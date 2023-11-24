@@ -31,11 +31,7 @@ const Navbar = () => {
             <a href="reservation" className='font'>Reservation</a>
         </div>
         <div className='appNavbarMobile'>
-            <GiHamburgerMenu style={{
-                position: 'absolute',
-                top: '55px',
-                left: '900px',
-            }}color='#B22222' fontSize={20} onClick={() => setToggleMenu(true)}/>
+            <GiHamburgerMenu color='#B22222' fontSize={20} onClick={() => setToggleMenu(true)}/>
             
             {toggleMenu && (
                 <div className='appNavbarMobileOverlay flex_center slide-bottom'>

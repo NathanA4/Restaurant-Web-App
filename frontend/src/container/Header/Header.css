@@ -1,0 +1,75 @@
+.test {
+    padding-bottom: 10rem;
+    padding-left: 40rem;
+}
+
+.appHeader {
+    position: relative;
+}
+.bestSellers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+.sTart,
+.pScones,
+.chCroiss {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.sTart img,
+.pScones img,
+.chCroiss img {
+    width: 250px;
+}
+
+.sTartText,
+.pSconesText,
+.chCroissText {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.headerBakeryText{
+    position: absolute; 
+    color: white;
+    transform: translateX(-50%); 
+    top: 100px;
+    left: 260px;
+}
+.BakeryText{
+    position: absolute; 
+    color: white;
+    transform: translateX(-50%); 
+    top: 80px;
+    left: 220px;
+}
+.buttonHeader{
+    background: #FFE4B5;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0);
+    position: absolute;
+    padding: 10px 20px; 
+    transform: translateX(-50%); 
+    top: 170px;
+    left: 184px;
+    transition: 0.3s ease;
+}
+.buttonHeader:hover{
+    background: #fdd795;
+}
+.header1font{
+    font-size: 20px;
+}
+.headerfont{
+    font-size: 55px;
+}

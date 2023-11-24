@@ -1,12 +1,15 @@
 import MainPageCoffee from '../assets/MainPageCoffee.jpg';
-import MainNamde from '../assets/MainNamde.png';
 import Logo1 from '../assets/Logo1.png';
-import Line from '../assets/Line.png'
-
+import ChocoCroissants from '../assets/ChocoCroissants.jpg';
+import StrawberryTart from '../assets/StrawberryTart.jpg';
+import PeachScones from '../assets/PeachScones.jpg';
+import HeaderBakery from '../assets/HeaderBakery.png'
 
 export default{
     MainPageCoffee,
-    MainNamde,
     Logo1,
-    Line,
+    ChocoCroissants,
+    StrawberryTart,
+    PeachScones,
+    HeaderBakery,
 }

@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: whitesmoke;
+    background: #FFE4B5;
     padding: 0px;
 
 }
@@ -66,6 +66,7 @@ body {
     display: flex;
     margin: 0 2rem;
     align-items: center;
+    justify-content: flex-end;
     font-family: 'proxima-nova', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -92,11 +93,11 @@ body {
 }
 
 .appNavbarMobileOverlay{
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
+    position: fixed;
     background: #FAEBD7;
     transition: 0.5s ease;
     flex-direction: column;
