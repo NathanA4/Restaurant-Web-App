@@ -1,15 +1,11 @@
-import AboutUs from './AboutUs/AboutUs';
-import FindUs from './FindUs/FindUs';
-import Footer from './Footer/Footer';
-import Header  from './Header/Header';
-import Gallery from './Gallery/Gallery';
-import Menu from './Menu/Menu';
+import AboutUs from './AboutUs/AboutUs.jsx';
+import Footer from './Footer/Footer.jsx';
+import Header  from './Header/Header.jsx';
+import Menu from './Menu/Menu.jsx';
 
 export {
     AboutUs,
-    FindUs,
     Footer,
     Header,
-    Gallery,
     Menu,
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IoMdCafe } from "react-icons/io";
+import { Link } from 'react-router-dom';
 import { MdBakeryDining } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineLogin } from "react-icons/md";
@@ -14,33 +14,32 @@ const Navbar = () => {
 
     return(
     <nav className = "appNavbar"> 
-        <div className="appNavbarLogo">
+        <Link to='/' className = "appNavbarLogo">
             <img src={image.Logo1} alt="Logo" />
-        </div> 
+        </Link>
         <ul className='appNavbarLinks'>
-            <li className="font"><a href="Home">Home</a></li>
-            <li className='font'><a href="About">About</a></li>
-            <li className='font'><a href="Products">Products</a></li>
-            <li className='font'><a href="Contact">Contact</a></li>
+            <li className="font"><Link to ="/">Home</Link></li>
+            <li className='font'><Link to="/About">AboutUs & Location</Link></li>
+            <li className='font'><Link to="/Products">Products</Link></li>
+            <li className='font'><Link to="/Contact">Contact</Link></li>
         </ul>
         <div className='appNavbarLogin'>
             <MdOutlineLogin color = "#B22222"/>
-            <a href="/" className='font'>Log In</a>
+            <a href="/LogIn" className='font'>Log In</a>
             <div />
             <GoChecklist color = "#B22222"/>
-            <a href="reservation" className='font'>Reservation</a>
+            <a href="/reservation" className='font'>Reservation</a>
         </div>
         <div className='appNavbarMobile'>
             <GiHamburgerMenu color='#B22222' fontSize={20} onClick={() => setToggleMenu(true)}/>
-            
             {toggleMenu && (
                 <div className='appNavbarMobileOverlay flex_center slide-bottom'>
                 <MdBakeryDining fontSize={20} className='overlayClose' onClick = {() => setToggleMenu(false)}/>
                 <ul className='appNavbarMobileLinks'>
-                    <li className="font"><a href="Home">Home</a></li>
-                    <li className='font'><a href="About">About</a></li>
-                    <li className='font'><a href="Products">Products</a></li>
-                    <li className='font'><a href="Contact">Contact</a></li>
+                    <li className="font"><Link to="/">Home</Link></li>
+                    <li className='font'><Link to="/About">AboutUs & Location</Link></li>
+                    <li className='font'><Link to="/Products">Products</Link></li>
+                    <li className='font'><Link to="/Contact">Contact</Link></li>
                 </ul>
             </div>  
             )}  
