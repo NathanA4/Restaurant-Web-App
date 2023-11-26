@@ -1,0 +1,74 @@
+.mainAboutUs{
+    overflow-x: hidden;
+}
+.start_about{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.breadBasket {
+    display: block;
+    float: right;
+}
+
+.rollingPin {
+    display: block;
+    float: right;
+    clear: right;
+}
+.box,
+.boxTwo{
+    font-family: cursive;
+    width: 600px;
+    padding: 10px;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    margin-bottom: 0.5rem;
+}
+.description,
+.origins,
+.locations,
+.background{
+
+    text-align: justify;
+    font-size: 15px;
+}
+
+.toronto,
+.oshawa{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: right;
+    margin-top: 1.5rem;
+    margin-right: 17rem;
+    position: relative;
+    top: 4rem;
+}
+.mOne,
+.mTwo{
+    font-family: cursive;
+    text-align: justify;
+    margin-left: 10rem;
+
+}
+
+
+
+.addressOne,
+.addressTwo{
+position: relative;
+text-align: left;
+bottom: 25rem;
+left: 41rem;
+
+}
+.hrsOne,
+.hrsTwo{
+
+    position: relative;
+    text-align: right;
+    bottom: 35rem;
+    right: 15rem;
+    margin:auto;
+}

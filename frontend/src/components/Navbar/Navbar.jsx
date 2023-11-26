@@ -25,10 +25,10 @@ const Navbar = () => {
         </ul>
         <div className='appNavbarLogin'>
             <MdOutlineLogin color = "#B22222"/>
-            <a href="/LogIn" className='font'>Log In</a>
+            <Link to="/LogIn" className='font'>Log In</Link>
             <div />
             <GoChecklist color = "#B22222"/>
-            <a href="/reservation" className='font'>Reservation</a>
+            <Link to="/reservation" className='font'>Book Table</Link>
         </div>
         <div className='appNavbarMobile'>
             <GiHamburgerMenu color='#B22222' fontSize={20} onClick={() => setToggleMenu(true)}/>

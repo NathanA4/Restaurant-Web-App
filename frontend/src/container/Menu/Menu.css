@@ -1,0 +1,46 @@
+.menuText{
+    position: absolute; 
+    color: white;
+    transform: translateX(-50%);
+    font-size: 50px; 
+    top: 200px;
+    left: 190px;
+    font-family: cursive;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 0px;
+}
+.appMenuItem{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    margin: 0 5rem;
+    font-weight: bold;
+    padding: 2rem 10rem;
+    font-size: 20px;
+    font-family: cursive;
+    color: 	#70021d;
+}
+.appMenuItem li{
+    margin: 0 15rem;
+    cursor: pointer;
+}
+.appMenuPastry:hover,
+.appMenuCoffee:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+.appMenuPastry.active,
+.appMenuCoffee.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
