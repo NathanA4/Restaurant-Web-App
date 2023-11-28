@@ -52,6 +52,11 @@ body {
     text-decoration: none;
     transition: 0.5s ease;
 }
+.appNavbarLinks li.active a {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
 .appNavbarLinks li a:hover{ 
     text-decoration: underline;
     text-underline-offset: 10px;

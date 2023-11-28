@@ -1,46 +1,63 @@
-.menuText{
-    position: absolute; 
-    color: white;
-    transform: translateX(-50%);
-    font-size: 50px; 
-    top: 200px;
-    left: 190px;
-    font-family: cursive;
-}
-.menu{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.appMenu {
+    position: relative;
     background: white;
-    padding: 0px;
+    text-align: center;
 }
-.appMenuItem{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    list-style: none;
-    font-size: 14px;
-    margin: 0 5rem;
-    font-weight: bold;
-    padding: 2rem 10rem;
-    font-size: 20px;
+
+.menuText {
+    transform: translateX(-50%);
+    position: absolute;
+    left: 165px;
+    top: 60px;
+    font-size: 46px;
+    color: white;
     font-family: cursive;
-    color: 	#70021d;
 }
-.appMenuItem li{
-    margin: 0 15rem;
-    cursor: pointer;
+
+.menuCategory {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: cursive;
 }
-.appMenuPastry:hover,
-.appMenuCoffee:hover{
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 2px;
+
+.menuItem {
+    display: inline-block;
+    background: white;
+    overflow: hidden;
+    margin-right: 20px;
+    font-family: cursive;
+    text-align: left;
 }
-.appMenuPastry.active,
-.appMenuCoffee.active {
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 2px;
+.menuItemDetails {
+    padding: 20px;
+    text-align: center;
+}
+
+.menuItemTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menuItemIngredients {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menuItemPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.menuItemImage {
+    text-align: center; 
+    transition: 0.4s ease;
+    object-fit: cover;
+}
+.menuItemImage:hover{
+    transform: scale(1.1);
 }
