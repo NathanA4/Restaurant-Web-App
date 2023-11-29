@@ -1,0 +1,106 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: space-between;
+    padding: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+    justify-content: center;
+
+
+}
+
+.feedback{
+    font-family: cursive;
+    height: 55px;
+    width: 600px;
+}
+
+.name,
+.storeBakery,
+.email,
+.phone,
+.comments{
+    font-family: cursive;
+    height: 50px;
+    width: 600px;
+    font-size: 18px;
+}
+
+.feedbackLabel,
+.nameLabel,
+.bakeryLabel,
+.emailLabel,
+.phoneLabel,
+.commentsLabel{
+    font-size: 18px;
+}
+
+.submit{
+    width: 100px;
+    height: 50px;
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    background-color: #faecd4;
+    margin-left: 30px;
+    position: relative;
+    bottom: 70px;
+
+}
+
+.submit:hover{
+    cursor: pointer;
+    color: #faecd4;
+    background-color: white;
+    border: 1px solid;
+    border-color: #faecd4;
+    transition : 0.4s ease;
+}
+
+@media screen and (max-width: 1150px) {
+    .column{
+        margin: 5px;
+        padding: 5px;
+    }
+    .feedback{
+        font-family: cursive;
+        height: 45px;
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .name,
+    .storeBakery,
+    .email,
+    .phone,
+    .comments{
+    font-family: cursive;
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    }
+
+    .feedbackLabel,
+    .nameLabel,
+    .bakeryLabel,
+    .emailLabel,
+    .phoneLabel,
+    .commentsLabel{
+    font-size: 14px;
+    }
+
+    .submit{
+        position: relative;
+        width: 100px;
+        height: 30px;
+        right: 15px;
+        bottom: 5px;
+    }
+
+
+}

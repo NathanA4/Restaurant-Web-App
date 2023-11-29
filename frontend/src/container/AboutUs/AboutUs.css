@@ -5,7 +5,7 @@
     font-size: 20px;
     text-decoration: underline;
 }
-.breadBasket {
+.breadBasket{
     display: block;
     float: right;
 }
@@ -14,11 +14,13 @@
     display: block;
     float: right;
     clear: right;
+
 }
+
 .box,
 .boxTwo{
     font-family: cursive;
-    width: 600px;
+    width: 1300px;
     padding: 10px;
     margin-top: 0.5rem;
     margin-left: 10rem;
@@ -30,7 +32,7 @@
 .background{
 
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .toronto,
@@ -41,19 +43,19 @@
     text-decoration: underline;
     text-align: right;
     margin-top: 1.5rem;
-    margin-right: 17rem;
+    margin-right: 16rem;
     position: relative;
     top: 4rem;
 }
+
+
+
 .mOne,
 .mTwo{
     font-family: cursive;
     text-align: justify;
     margin-left: 10rem;
-
 }
-
-
 
 .addressOne,
 .addressTwo{
@@ -61,8 +63,8 @@ position: relative;
 text-align: left;
 bottom: 25rem;
 left: 41rem;
-
 }
+
 .hrsOne,
 .hrsTwo{
 
@@ -71,4 +73,66 @@ left: 41rem;
     bottom: 35rem;
     right: 15rem;
     margin:auto;
+}
+
+@media screen and (max-width: 1150px){
+    .start_about{
+        font-size: 14px;
+    }
+
+    .box,
+    .boxTwo{
+        width: 300px;
+        position: relative;
+        left: -5rem;
+    }
+
+    .description,
+    .origins,
+    .locations,
+    .background{
+        font-size: 12px;
+    }
+
+    .breadBasket,
+    .rollingPin{
+        height: 125px;
+        width: 125px;
+    }
+
+    .toronto,
+    .oshawa{
+
+        position: relative;
+        top: 28.5rem;
+        left: 8rem;
+        font-size: 12px;
+    }
+
+    .mapOne,
+    .mapTwo{
+        height: 400px;
+        width: 350px;
+
+    }
+    .mOne,
+    .mTwo{
+        margin-left: 5rem;
+    }
+
+    .addressOne,
+    .addressTwo{
+        position: relative;
+        top: 3.5rem;
+        left: -2rem;
+        font-size: 14px;
+    }
+
+    .hrsOne,
+    .hrsTwo{
+        position: relative;
+        bottom: 5rem;
+        right: 3rem;
+        font-size: 14px;
+    }
 }

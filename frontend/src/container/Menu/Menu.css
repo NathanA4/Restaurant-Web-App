@@ -13,11 +13,27 @@
     color: white;
     font-family: cursive;
 }
-
+.menuTextButton{
+    background: #FFE4B5;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255, 0);
+    position: absolute;
+    padding: 10px 20px; 
+    transform: translateX(-50%); 
+    top: 130px;
+    left: 145px;
+    border-radius: 10px;
+}
+.menuTextButton:hover{
+    background: transparent;
+}
 .menuCategory {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    padding: 15px;
     font-family: cursive;
 }
 
@@ -25,9 +41,9 @@
     display: inline-block;
     background: white;
     overflow: hidden;
-    margin-right: 20px;
     font-family: cursive;
-    text-align: left;
+    justify-content: space-between;
+    margin: 10px;
 }
 .menuItemDetails {
     padding: 20px;
@@ -54,10 +70,41 @@
 }
 
 .menuItemImage {
-    text-align: center; 
+    text-align: center;
     transition: 0.4s ease;
     object-fit: cover;
 }
 .menuItemImage:hover{
     transform: scale(1.1);
+}
+
+
+
+
+
+
+@media screen and (max-width: 1150px){
+    .menuCategory{
+        font-size: 25px;
+
+    }
+    .appMenu{
+        font-size: 15px;
+    }
+    .menuItemImage{
+        height: 150px;
+        width: 150px;
+
+
+    }
+
+    .menuItem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+
+
 }
