@@ -9,7 +9,7 @@ exports.addOrder = async (req, res) => {
             return res.status(400).json({Error: "Must Enter all the fields!"});
         }
         await order.save();
-        res.status(200).json({message: "Order has been Added!"});
+        res.status(200).json({message: "Reservation has been Added!"});
         
     } catch (error) {
         res.status(500).json({message: "Server Error"});
@@ -28,7 +28,7 @@ exports.deleteOrder = async (req, res) =>{
     const{id} = req.params;
     OrderSchema.findByIdAndDelete(id)
     .then((order) => {
-        res.status(200).json({message: 'Order has been Deleted'})
+        res.status(200).json({message: 'Reservation has been Deleted'})
     })
     .catch((err) =>{
         res.status(500).json({message: 'Server Error'})
