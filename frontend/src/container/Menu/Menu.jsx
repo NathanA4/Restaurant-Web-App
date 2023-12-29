@@ -23,7 +23,7 @@ const Menu = () => {
         <div className="appMenu">
             <img src={image.MenuImage} width="100%" height="250px" className="cover" alt="Coffee" />
             <div className="menuText">Product</div>
-            <button className='menuTextButton'>Filter Product</button>
+            {/* <button className='menuTextButton'>Filter Product</button> */}
             <div className="menuCategory">Pastries</div>
             <div className= "pastriesContainer">
             <MenuItem

@@ -9,9 +9,7 @@ const Header = () => (
     <img src={image.HeaderBakery} width= "100%" height="250px" className = "cover" alt="HeaderBakery" />
     <div className="headerBakeryText headerfont" >SABROSA</div>
     <div className="BakeryText header1font" >Home Sweet Bakery</div>
-    <button className="">
-      <Link to="/Products" className="buttonHeader">Products</Link>
-    </button>
+    <Link to="/Products" className="buttonHeader">Products</Link>
     <div className="bestSellersText">Best Sellers</div>
     <div className="bestSellers">
       <div className="sTart">
